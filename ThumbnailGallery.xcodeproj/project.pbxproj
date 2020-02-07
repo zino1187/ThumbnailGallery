@@ -13,6 +13,12 @@
 		ACABB2F623ECCD3700260D3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACABB2F423ECCD3700260D3B /* Main.storyboard */; };
 		ACABB2F823ECCD3800260D3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACABB2F723ECCD3800260D3B /* Assets.xcassets */; };
 		ACABB2FB23ECCD3800260D3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACABB2F923ECCD3800260D3B /* LaunchScreen.storyboard */; };
+		ACABB30923ECDCD400260D3B /* h1.png in Resources */ = {isa = PBXBuildFile; fileRef = ACABB30323ECDCD400260D3B /* h1.png */; };
+		ACABB30A23ECDCD400260D3B /* h3.png in Resources */ = {isa = PBXBuildFile; fileRef = ACABB30423ECDCD400260D3B /* h3.png */; };
+		ACABB30B23ECDCD400260D3B /* h5.png in Resources */ = {isa = PBXBuildFile; fileRef = ACABB30523ECDCD400260D3B /* h5.png */; };
+		ACABB30C23ECDCD400260D3B /* h4.png in Resources */ = {isa = PBXBuildFile; fileRef = ACABB30623ECDCD400260D3B /* h4.png */; };
+		ACABB30D23ECDCD400260D3B /* h2.png in Resources */ = {isa = PBXBuildFile; fileRef = ACABB30723ECDCD400260D3B /* h2.png */; };
+		ACABB30E23ECDCD400260D3B /* h6.png in Resources */ = {isa = PBXBuildFile; fileRef = ACABB30823ECDCD400260D3B /* h6.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		ACABB2F723ECCD3800260D3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACABB2FA23ECCD3800260D3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACABB2FC23ECCD3800260D3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACABB30323ECDCD400260D3B /* h1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = h1.png; sourceTree = "<group>"; };
+		ACABB30423ECDCD400260D3B /* h3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = h3.png; sourceTree = "<group>"; };
+		ACABB30523ECDCD400260D3B /* h5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = h5.png; sourceTree = "<group>"; };
+		ACABB30623ECDCD400260D3B /* h4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = h4.png; sourceTree = "<group>"; };
+		ACABB30723ECDCD400260D3B /* h2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = h2.png; sourceTree = "<group>"; };
+		ACABB30823ECDCD400260D3B /* h6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = h6.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +52,7 @@
 		ACABB2E223ECCD3700260D3B = {
 			isa = PBXGroup;
 			children = (
+				ACABB30223ECDCC800260D3B /* images */,
 				ACABB2ED23ECCD3700260D3B /* ThumbnailGallery */,
 				ACABB2EC23ECCD3700260D3B /* Products */,
 			);
@@ -65,6 +78,19 @@
 				ACABB2FC23ECCD3800260D3B /* Info.plist */,
 			);
 			path = ThumbnailGallery;
+			sourceTree = "<group>";
+		};
+		ACABB30223ECDCC800260D3B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				ACABB30323ECDCD400260D3B /* h1.png */,
+				ACABB30723ECDCD400260D3B /* h2.png */,
+				ACABB30423ECDCD400260D3B /* h3.png */,
+				ACABB30623ECDCD400260D3B /* h4.png */,
+				ACABB30523ECDCD400260D3B /* h5.png */,
+				ACABB30823ECDCD400260D3B /* h6.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +151,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACABB30A23ECDCD400260D3B /* h3.png in Resources */,
 				ACABB2FB23ECCD3800260D3B /* LaunchScreen.storyboard in Resources */,
 				ACABB2F823ECCD3800260D3B /* Assets.xcassets in Resources */,
+				ACABB30E23ECDCD400260D3B /* h6.png in Resources */,
+				ACABB30D23ECDCD400260D3B /* h2.png in Resources */,
+				ACABB30923ECDCD400260D3B /* h1.png in Resources */,
+				ACABB30C23ECDCD400260D3B /* h4.png in Resources */,
+				ACABB30B23ECDCD400260D3B /* h5.png in Resources */,
 				ACABB2F623ECCD3700260D3B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
